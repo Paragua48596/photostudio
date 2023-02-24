@@ -176,3 +176,49 @@ html {
 .header .content {
   color: #FFF;
 }
+
+/* ABOUT */
+
+.about .row:nth-child(1) {
+  grid-column: 1 / 8;
+  height: 500px;
+}
+
+.about .row:nth-child(2) {
+  grid-column: 8 / 13;
+}
+
+@media screen and (max-width: 940px) {
+  .about .row:nth-child(1) {
+      grid-column: 1 / -1;
+      grid-row: 1 / 2;
+      height: 300px;
+  }
+
+  .about .row:nth-child(2) {
+      grid-column: 1 / -1;
+      grid-row: 2 / 3;
+  }
+}
+
+.team .row:nth-child(1) {
+  grid-column: 1 / 6;
+}
+
+.team .row:nth-child(2) {
+  grid-column: 6 / 13;
+  height: 500px;
+}
+
+@media screen and (max-width: 940px) {
+  .team .row:nth-child(2) {
+      grid-column: 1 / -1;
+      grid-row: 1 / 2;
+      height: 300px;
+  }
+
+  .team .row:nth-child(1) {
+      grid-column: 1 / -1;
+      grid-row: 2 / 3;
+  }
+}
