@@ -100,3 +100,47 @@ html {
   padding: 20px;
   border-bottom: 1px solid #AAA;
 }
+
+/* NAVBAR */
+
+.navbar {
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo__url {
+  color: var(--colorFont);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo__url img {
+  margin-right: 10px;
+}
+
+.navbar__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav_list-link {
+  color: var(--colorFont);
+  text-decoration: none;
+  padding: 20px;
+}
