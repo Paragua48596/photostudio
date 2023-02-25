@@ -458,3 +458,22 @@ html {
 
 
 }
+
+/* FOOTER */
+
+footer {
+  padding: 20px;
+  color: var(--colorBtn);
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .flex {
+  height: 100px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
