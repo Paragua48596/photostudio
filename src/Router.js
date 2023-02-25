@@ -4,6 +4,10 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 //Componentes
 import Menu from './components/Menu';
+import Footer from './components/Footer';
+
+//Paginas
+import Home from './pages/Home';
 
 class Router extends Component {
     render() {
@@ -12,12 +16,12 @@ class Router extends Component {
 
                 {/* Menu de navegacion */}
                 <Menu />
-
+                
                 <Switch>
-                    <Route exact path='/' render={() => (
-                        <h1>Test</h1>
-                    )} />
+                    <Route exact path='/' component={Home}/>
                 </Switch>
+
+                <Footer />
             </BrowserRouter>
         )
     }
