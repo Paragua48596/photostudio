@@ -5,7 +5,7 @@ class Plans extends Component {
         return (
             <section id="plans" className="plans">
                 <div className="headline">
-                    <h2 className="headline_heading">Our Work</h2>
+                    <h2 className="headline_heading">Plans</h2>
                 </div>
                 <div className="plans__container">
                     <div className="card">
