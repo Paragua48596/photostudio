@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 
 //Paginas
 import Home from './pages/Home';
+import Features from './pages/Features';
+import Pricing from './pages/Pricing';
 
 class Router extends Component {
     render() {
@@ -19,6 +21,8 @@ class Router extends Component {
                 
                 <Switch>
                     <Route exact path='/' component={Home}/>
+                    <Route exact path='/features' component={Features}/>
+                    <Route exact path='/pricing' component={Pricing}/>
                 </Switch>
 
                 <Footer />
