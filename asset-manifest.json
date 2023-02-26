@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/photostudio/static/css/main.b3e8c261.css",
+    "main.js": "/photostudio/static/js/main.157a1755.js",
+    "static/js/787.3e5446fb.chunk.js": "/photostudio/static/js/787.3e5446fb.chunk.js",
+    "static/media/people.jpg": "/photostudio/static/media/people.510a53bacc10f7e3fbdc.jpg",
+    "static/media/camera.jpg": "/photostudio/static/media/camera.5f0bf63d24b23d011f71.jpg",
+    "static/media/city.jpg": "/photostudio/static/media/city.cf64029e5cc3038fac0f.jpg",
+    "static/media/sunset.jpg": "/photostudio/static/media/sunset.486cd04f30716b7dabf1.jpg",
+    "static/media/nature.jpg": "/photostudio/static/media/nature.22cd796b970d00d698f5.jpg",
+    "static/media/camera-man.jpg": "/photostudio/static/media/camera-man.85f0f8cbd5e547160f97.jpg",
+    "static/media/skater.jpg": "/photostudio/static/media/skater.ba1d6880d72551d4043f.jpg",
+    "static/media/photo-6.jpg": "/photostudio/static/media/photo-6.7109e5a4a175fc0d9aaf.jpg",
+    "static/media/animals.jpg": "/photostudio/static/media/animals.bb4883f3f62e84dc13d2.jpg",
+    "static/media/photo-3.jpg": "/photostudio/static/media/photo-3.690aef289c53b5a2ff4b.jpg",
+    "static/media/city-2.jpg": "/photostudio/static/media/city-2.75d2b1afa49b6200cda0.jpg",
+    "static/media/photo-5.jpg": "/photostudio/static/media/photo-5.143f6046fc946e36009a.jpg",
+    "static/media/photo-7.jpg": "/photostudio/static/media/photo-7.07141639c897ff77cd23.jpg",
+    "static/media/photo.jpg": "/photostudio/static/media/photo.298cf329b844e80da69a.jpg",
+    "static/media/photo-4.jpg": "/photostudio/static/media/photo-4.b279f82e1716f28a6ff4.jpg",
+    "static/media/photo-2.jpg": "/photostudio/static/media/photo-2.555102fa3b5b8de6cd8e.jpg",
+    "static/media/DMSans-Regular.ttf": "/photostudio/static/media/DMSans-Regular.067ebd7ed3c947d82dc4.ttf",
+    "static/media/DMSans-Bold.ttf": "/photostudio/static/media/DMSans-Bold.da49214b2d88abca155c.ttf",
+    "static/media/logo.svg": "/photostudio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/photostudio/index.html",
+    "main.b3e8c261.css.map": "/photostudio/static/css/main.b3e8c261.css.map",
+    "main.157a1755.js.map": "/photostudio/static/js/main.157a1755.js.map",
+    "787.3e5446fb.chunk.js.map": "/photostudio/static/js/787.3e5446fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3e8c261.css",
+    "static/js/main.157a1755.js"
+  ]
+}
