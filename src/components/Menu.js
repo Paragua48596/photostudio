@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom'
 
 class Menu extends Component {
     render() {
@@ -19,13 +20,13 @@ class Menu extends Component {
 
                     <ul className="nav_list">
                         <li className="nav_list-item">
-                            <a href="index.html" className="nav_list-link">Home</a>
+                            <NavLink to='/' className='nav_list-link' >Home</NavLink>
                         </li>
                         <li className="nav_list-item">
-                            <a href="features.html" className="nav_list-link">Features</a>
+                            <NavLink to='/features' className='nav_list-link' >Features</NavLink>
                         </li>
                         <li className="nav_list-item">
-                            <a href="pricing.html" className="nav_list-link">Pricing</a>
+                            <NavLink to='/pricing' className='nav_list-link' >Pricing</NavLink>
                         </li>
                     </ul>
 
