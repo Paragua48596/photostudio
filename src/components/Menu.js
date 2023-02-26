@@ -9,9 +9,9 @@ class Menu extends Component {
 
                 <div className="logo">
                     <h1 className="logo__brand">
-                        <a href="index.html" className="logo__url">
+                        <NavLink to='/' className="logo__url">
                             Business
-                        </a>
+                        </NavLink>
                     </h1>
 
                 </div>
