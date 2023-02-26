@@ -1,6 +1,6 @@
 //Importamos modulos
 import React, { Component } from 'react'
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, HashRouter } from "react-router-dom";
 
 //Componentes
 import Menu from './components/Menu';
@@ -14,7 +14,7 @@ import Pricing from './pages/Pricing';
 class Router extends Component {
     render() {
         return (
-            <BrowserRouter>
+            <HashRouter>
 
                 {/* Menu de navegacion */}
                 <Menu />
@@ -26,7 +26,7 @@ class Router extends Component {
                 </Switch>
 
                 <Footer />
-            </BrowserRouter>
+            </HashRouter>
         )
     }
 }
