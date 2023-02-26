@@ -8,11 +8,17 @@ class Menu extends Component {
     show = () => {
         var burguer = document.querySelector('#burguer-menu')
         burguer.classList.remove('hidden')
+
+        var body = document.querySelector('#body')
+        body.style.overflow = 'hidden'
     }
 
     close = () => {
         var burguer = document.querySelector('#burguer-menu')
         burguer.classList.add('hidden')
+
+        var body = document.querySelector('#body')
+        body.style.overflow = 'auto'
     }
 
     render() {
