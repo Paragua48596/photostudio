@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
 //Imagenes
-import people from '../assets/images/people.jpg'
-import camera from '../assets/images/camera.jpg'
-import sunset from '../assets/images/sunset.jpg'
+import people from '../assets/images/people-min.jpg'
+import camera from '../assets/images/camera-min.jpg'
+import sunset from '../assets/images/sunset-min.jpg'
 
 class Header extends Component {
 

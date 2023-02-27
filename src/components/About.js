@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
 //Imagenes
-import city from '../assets/images/city.jpg'
-import camera from '../assets/images/camera-man.jpg'
+import city from '../assets/images/city-min.jpg'
+import camera from '../assets/images/camera-man-min.jpg'
 
 class About extends Component {
     render() {
